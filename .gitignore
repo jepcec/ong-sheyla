@@ -10,6 +10,7 @@ node_modules/
 # local agent skills
 .agents/skills/
 .codex/skills/
+.taste-skill/
 
 # logs
 npm-debug.log*
