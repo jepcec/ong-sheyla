@@ -1,0 +1,36 @@
+# ONG Ñañachaykuna
+
+Sitio web institucional construido con Astro para la ONG Ñañachaykuna, una organización de Cusco que acompaña a mujeres artesanas y productoras rurales.
+
+Su trabajo promueve:
+
+- identidad cultural;
+- empoderamiento femenino;
+- fortalecimiento de las familias;
+- educación, liderazgo y emprendimiento.
+
+La web presenta sus programas, proyectos, convocatorias, voluntariado, transparencia, donaciones y formas de contacto. El contenido base se encuentra en [public/contenido_ong_nanachaykuna.md](public/contenido_ong_nanachaykuna.md).
+
+## Desarrollo
+
+Requiere Node.js 22.12 o superior.
+
+~~~sh
+npm install
+npm run dev -- --background
+npm run build
+~~~
+
+Para administrar el servidor:
+
+~~~sh
+npm exec -- astro dev status
+npm exec -- astro dev logs
+npm exec -- astro dev stop
+~~~
+
+## Antes de publicar
+
+La web utiliza fotografías stand-in en `public/standins/`, que deben reemplazarse por imágenes autorizadas de la ONG. También están pendientes de confirmación las cifras de impacto, datos de contacto, aliados, documentos institucionales y datos bancarios.
+
+El voluntariado enlaza al formulario oficial de Google Forms. La cuenta bancaria, el CCI, el RUC y el PR no se muestran hasta contar con autorización de la organización.
