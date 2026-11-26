@@ -1,0 +1,4 @@
+---
+interface Props { number:string; title:string; text:string; href:string } const {number,title,text,href}=Astro.props;
+---
+<a class="program-card" href={href}><span class="program-card__number">{number}</span><div><h3>{title}</h3><p>{text}</p></div><span class="program-card__arrow" aria-hidden="true">Ver programa <span>↗</span></span></a>
